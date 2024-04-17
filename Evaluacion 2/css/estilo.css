@@ -1,0 +1,56 @@
+body {
+    background-color: #633200;
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px 60px;
+}
+
+table, tr, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.contenedor_imagenes {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: burlywood;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: brown;
+    overflow: hidden;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: #be9b7b;
+    color: black;
+}
+
+main{
+    background-color: white;
+    padding: 30px;
+}
+
+
+footer{
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+}
